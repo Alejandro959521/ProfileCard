@@ -40,7 +40,7 @@ function render(variables = {}) {
             variables.role == null ? "Professional Swimmer" : variables.role
           }</h2>
           <h3>${variables.city == null ? "New Jersey" : variables.city}  ${
-    variables.country == null ? "EEUU" : variables.contry
+    variables.country == null ? "EEUU" : variables.country
   }</h3>
            <ul class="${variables.socialMediaPosition}">
            <li><a href="  ${
@@ -55,7 +55,7 @@ function render(variables = {}) {
            } "><i class="fab fa-github"></i></a></li>
            <li><a href="${
              variables.linkedin == null
-               ? "https://github.com/4geeksacademy"
+               ? "https://www.linkedin.com/in/kelsi-dahlia-10127915b"
                : variables.linkedin
            } "><i class="fab fa-linkedin"></i></a></li>
            <li><a href="${
@@ -85,7 +85,7 @@ window.onload = function() {
     socialMediaPosition: "position-left",
     // social media usernames
     twitter: null,
-    github: "alesanchezr",
+    github: null,
     linkedin: null,
     instagram: null,
     name: null,
